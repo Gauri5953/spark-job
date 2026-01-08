@@ -3,7 +3,7 @@ pipeline {
 
     stages {
        
-        stage('Build Docker Image') {
+        stage('Build Image') {
             steps {
                 script {
                     // Build the Docker image from the Dockerfile
